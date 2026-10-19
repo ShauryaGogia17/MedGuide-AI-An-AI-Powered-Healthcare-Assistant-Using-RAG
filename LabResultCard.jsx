@@ -1,0 +1,1 @@
+// Lab result card component.

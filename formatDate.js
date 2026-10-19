@@ -1,0 +1,1 @@
+export function formatDate(value,language='en'){if(!value)return language==='hi'?'तारीख उपलब्ध नहीं है':'Date not available';return new Intl.DateTimeFormat(language==='hi'?'hi-IN':'en',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(value));}

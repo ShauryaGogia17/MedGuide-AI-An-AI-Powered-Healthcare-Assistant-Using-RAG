@@ -1,0 +1,2 @@
+import {useLanguage} from '../context/LanguageContext';
+export default function LanguageToggle(){const {language,setLanguage,t}=useLanguage();return <div className="language-toggle" role="group" aria-label={t('Language')}><button className="secondary" type="button" lang="en" aria-pressed={language==='en'} onClick={()=>setLanguage('en')}>English</button><button className="secondary" type="button" lang="hi" aria-pressed={language==='hi'} onClick={()=>setLanguage('hi')}>हिन्दी</button></div>;}
