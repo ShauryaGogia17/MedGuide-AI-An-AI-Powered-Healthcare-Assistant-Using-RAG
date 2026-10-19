@@ -1,0 +1,15 @@
+fastapi==0.143.0
+uvicorn==0.54.0
+openai==3.28.0
+python-dotenv==1.2.4
+pypdf==6.20.0
+chromadb==1.5.9
+pydantic==2.14.0
+scikit-learn==1.9.1
+numpy==2.5.3
+pandas==3.0.6
+python-multipart==0.0.32
+pypdfium2==5.14.0
+pytesseract==0.3.13
+pillow==12.3.0
+python-dateutil==2.9.0.post0

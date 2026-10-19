@@ -1,0 +1,15 @@
+{
+  "name": "medguide-ai",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.cjs",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:db": "npm --prefix backend run db:dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

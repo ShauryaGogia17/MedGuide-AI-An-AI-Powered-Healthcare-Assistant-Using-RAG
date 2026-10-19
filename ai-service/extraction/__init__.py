@@ -1,0 +1,1 @@
+"""Report text extraction."""

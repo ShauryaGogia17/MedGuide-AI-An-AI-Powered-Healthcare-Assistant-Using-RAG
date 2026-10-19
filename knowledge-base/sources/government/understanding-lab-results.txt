@@ -1,0 +1,3 @@
+Understanding laboratory results — educational summary of MedlinePlus (U.S. National Library of Medicine).
+A reference range is the laboratory's comparison interval. Laboratories can use different methods and ranges, so use the range printed on the specific report. An out-of-range result alone does not establish a diagnosis, and a result within the interval does not guarantee that a person is healthy. A clinician considers the result alongside symptoms, medical history, and other information. When following changes over time, using the same laboratory can make comparisons easier. Discuss unclear results with a qualified healthcare professional.
+Source: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/

@@ -1,0 +1,2 @@
+def evidence_sources(documents):
+    return [{'id': f'S{index+1}', 'kind': metadata.get('kind','personal'), 'filename': metadata.get('filename',metadata.get('source','Unknown')), 'title': metadata.get('source','Unknown'), 'page': metadata.get('page'), 'report_id': metadata.get('report_id'), 'report_date': metadata.get('report_date') or None, 'url': metadata.get('url'), 'snippet': text} for index,(text,metadata) in enumerate(documents)]
